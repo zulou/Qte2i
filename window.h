@@ -11,10 +11,14 @@ class Window : public QWidget
 
 public:
     Window();
-    void createHorizontalGroupBox();
+
+
+
 
 private:
     QLabel *createLabel(const QString &text);
+    void createHorizontalGroupBox();
+
 };
 
 #endif // WINDOW_H
