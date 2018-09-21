@@ -2,6 +2,8 @@
 #define WINDOW_H
 
 #include <QWidget>
+#include <QPushButton>
+//#include "controller.cpp"
 
 class QLabel;
 
@@ -17,8 +19,11 @@ public:
 
 private:
     QLabel *createLabel(const QString &text);
+    QPushButton *qconexionButton;
     void createHorizontalGroupBox();
 
+private slots:
+    void handleButtonIni();
 };
 
 #endif // WINDOW_H

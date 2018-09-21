@@ -25,7 +25,8 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         borderlayout.cpp \
-    window.cpp
+    window.cpp \
+    controller.cpp
 
 HEADERS += \
         borderlayout.h \
